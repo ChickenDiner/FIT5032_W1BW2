@@ -1,0 +1,21 @@
+﻿<style>
+    body {
+    color: red;
+    background: yellow;
+    }
+
+    h2 {
+        color: blue;
+    }
+
+
+    h3 {
+        color: #FFCC00;
+
+    }
+
+    p {
+        color: rgba(0, 255, 0, 0.5);
+    }
+
+</style>
