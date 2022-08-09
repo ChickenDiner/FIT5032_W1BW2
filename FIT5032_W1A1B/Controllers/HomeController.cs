@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using FIT5032_W1A1B.Models.HelloWorld;
+using FIT5032_W1A1B.Models.Exercise;
 
 namespace FIT5032_W1A1B.Controllers
 {
@@ -18,7 +19,10 @@ namespace FIT5032_W1A1B.Controllers
         {
             Hello hello = new Hello();
             ViewBag.Message = hello.GetHello();
-            
+
+            ExampleDictionary ed = new ExampleDictionary();
+            ed.Example();
+
 
             return View();
         }
