@@ -162,6 +162,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FIT5032_Models.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\HelloWorld\Hello.cs" />
     <Compile Include="Models\Students.cs">
       <DependentUpon>FIT5032_Models.tt</DependentUpon>
     </Compile>

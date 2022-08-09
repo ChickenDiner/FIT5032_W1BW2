@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using FIT5032_W1A1B.Models.HelloWorld;
 
 namespace FIT5032_W1A1B.Controllers
 {
@@ -15,7 +16,9 @@ namespace FIT5032_W1A1B.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            Hello hello = new Hello();
+            ViewBag.Message = hello.GetHello();
+            
 
             return View();
         }
